@@ -26,12 +26,12 @@ public:
     ~Person() {};
 
     // Setters
-    void setName(std::string n);
-    void setAge(uint a);
+    void setName(std::string n) { name = n; };
+    void setAge(uint a) { age = a; };
 
     // Getters
-    std::string getName();
-    int getAge();
+    std::string getName() { return name; };
+    int getAge() { return age; };
     int getMaxAge() { return maxAge; }
 
     void getOlder() { age++; }
