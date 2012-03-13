@@ -27,7 +27,7 @@ public:
 
     // Setters
     void setName(std::string n);
-    void setAge(int a);
+    void setAge(uint a);
 
     // Getters
     std::string getName();

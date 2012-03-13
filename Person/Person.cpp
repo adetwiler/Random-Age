@@ -17,7 +17,7 @@ Person::Person(std::string n, uint a) {
 void Person::setName(std::string n) {
     name = n;
 }
-void Person::setAge(int a) {
+void Person::setAge(uint a) {
 	age = a;
 }
 
